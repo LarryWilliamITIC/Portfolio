@@ -1,0 +1,56 @@
+.nav{
+    background-color: rgb(6, 136, 125);
+    overflow: hidden;
+}
+
+.nav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+
+.nav a:hover {
+    background-color: rgb(198, 216, 201);
+    color: black;
+}
+
+.nav a.active {
+    background-color: #04AA6D;
+    color: white;
+}
+
+#icon{
+    width: 50px;
+    height: 50px;
+}
+
+.software {
+    width: 100px;
+    height: 100px;
+}
+
+main,footer{
+    max-width: 120.0rem;
+    margin: auto;
+    background-color: var(--color-main);
+    box-shadow: 0 0 1.0rem rgb(43, 161, 122) ;
+}
+
+header h1, section h2{
+    line-height: 3.5rem;
+    text-align: center;
+    color: var(--color-secondary);
+    background-color: rgb(6, 136, 125);
+    margin-bottom: 2rem;
+    font-weight: 300;
+    text-shadow: .1rem .1rem 0 var(--color-default-global);
+}
+
+main ul li{
+    display: inline-block;
+    width: calc(100% / 4 - 1rem);
+    align-items: center;
+}

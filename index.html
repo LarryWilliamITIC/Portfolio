@@ -5,19 +5,28 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Larry William</title>
+    <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
     <header>
+        <img id="icon" src="./asset/arale_icon.png" alt="Logo Aralé">
+
         <h1>Portfolio</h1>
-        <figure>
-        <img src="./asset/arale_icon.png" alt="Logo Aralé">
-        </figure>
     </header>
 
+    <div>
+    <nav class="nav">
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#etudes">Etudes</a></li>
+        </ul>
+    </nav>
+    </div>
     <main>
-        <section>
-            <h2>Compétences</h2> 
+        <section id="competence">
+            <h2><span class="material-icons"></span>Compétences</h2> 
             <ul>
                 <li></li>
                 <li></li>
@@ -27,27 +36,18 @@
             </ul>
         </section>
 
-        <section>
-            <h2>Logiciels, IDE web ou expertise</h2>
-                <figure>
-                <img src="./asset/html_logo.png" alt="HTML">
-                </figure>
-
-                <figure>
-                <img src="./asset/css_logo.png" alt="CSS">
-                </figure>
-
-                <figure>
-                <img src="./asset/js_logo.png" alt="JavaScript">
-                </figure>
-
-                <figure>
-                <img src="./asset/vsc_logo.png" alt="Visual Studio Code">
-                </figure>
+        <section id="logiciel">
+            <h2>Logiciels</h2>
+            <ul class="grid-logo">
+                <li><img class="software" src="./asset/html_logo.png" alt="HTML"></li>
+                <li><img class="software" src="./asset/css_logo.png" alt="CSS"></li>
+                <li><img class="software" src="./asset/js_logo.png" alt="JavaScript"></li>
+                <li><img class="software" src="./asset/php_logo.png" alt="Visual Studio Code"></li>
+            </ul>
         </section>
 
-        <section>
-            <h2>Expériences professionnelle ou stage</h2>
+        <section id="experience">
+            <h2>Expériences</h2>
             <ul>
                 <li></li>
                 <li></li>
@@ -57,7 +57,7 @@
             </ul>
         </section>
 
-        <section>
+        <section id="etude">
             <h2>Etudes</h2>
             <ul>
                 <li></li>
@@ -68,8 +68,8 @@
             </ul>
         </section>
 
-        <section>
-            <h2>Activités extra-professionnelles</h2>
+        <section id="loisir">
+            <h2>Loisirs</h2>
             <ul>
                 <li></li>
                 <li></li>
