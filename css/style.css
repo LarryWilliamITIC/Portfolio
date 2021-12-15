@@ -73,3 +73,36 @@ main ul li{
     display: inline-block;
     vertical-align: middle;
 }
+
+@media screen and (max-width: 40em) {
+
+    div{
+        display: grid;
+        column-gap: 20px;
+    }
+
+    nav ul{
+        width: auto;
+        margin: 0;
+        display: block;
+
+    }
+
+    nav ul {
+        display: flex;
+    }
+
+    nav li {
+        flex: 1;
+    }
+}
+@media screen and (orientation: landscape){
+    nav ul{
+        margin: 0 auto 2rem;
+
+    }
+    nav ul li{
+        width: calc(100% / 5);
+    }
+
+}
