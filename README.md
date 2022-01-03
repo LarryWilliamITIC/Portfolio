@@ -14,5 +14,5 @@
 * css/style.css, css/reset.css
 * asset/
 * favicon/
-* 
+
 &copy; Larry William - 2021
